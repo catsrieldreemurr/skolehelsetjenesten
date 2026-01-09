@@ -52,7 +52,7 @@ export default function Home() {
             <Typography isCentered>Ønsker du å bestille time, sender du en SMS med navn og fødselsdato til en av Helsesykepleierene, eller trykk nedenfor.</Typography>
 
             <div className="flex items-center justify-center">
-              <Link href={"/"} className="bg-kattaLightGreen text-white p-3 rounded-xl mt-8 w-1/2 text-center">Bestill Her</Link>
+              <Link href={"/"} className="bg-kattaLightGreen text-white p-3 rounded-xl mt-5 w-1/2 text-center">Bestill Her</Link>
             </div>
             
           </div>
