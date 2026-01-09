@@ -10,7 +10,7 @@ export default function Navbar(){
     return(
         <nav className="bg-white border-b-3 border-kattaLightGreen">
             <div className="flex items-center place-content-between">
-                <Link href={"/"}><Image src={"/hamar-katedralskole_png.png"} alt={"Hamar Katedralskole"} height={200} width={200} className="p-4"></Image></Link>
+                <Link href={"https://www.hamar-katedral.vgs.no/"}><Image src={"/hamar-katedralskole_png.png"} alt={"Hamar Katedralskole"} height={200} width={200} className="p-4"></Image></Link>
                 
                 <div className="hidden sm:flex">
                     <NavbarLink linkDestination="/" text="Om Skolehelsetjensten"></NavbarLink>
