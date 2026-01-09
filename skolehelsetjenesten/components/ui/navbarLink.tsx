@@ -7,6 +7,6 @@ interface setTypes{
 
 export default function NavbarLink({text, linkDestination}:setTypes){
     return(
-        <Link href={linkDestination} className="text-xl hover:underline ml-10">{text}</Link> 
+        <Link href={linkDestination} className="flex items-center text-xl hover:bg-kattaGray hover:border-b-6 border-kattaLightGreen p-7">{text}</Link> 
     )
 }

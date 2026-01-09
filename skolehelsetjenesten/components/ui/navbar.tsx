@@ -8,9 +8,9 @@ import { PopoverContent } from "@radix-ui/react-popover";
 export default function Navbar(){
     const menuStyles = "text-lg p-3"
     return(
-        <nav className="bg-white p-5 border-b-3 border-kattaLightGreen">
+        <nav className="bg-white border-b-3 border-kattaLightGreen">
             <div className="flex items-center place-content-between">
-                <Link href={"/"}><Image src={"/hamar-katedralskole_png.png"} alt={"Hamar Katedralskole"} height={150} width={150}></Image></Link>
+                <Link href={"/"}><Image src={"/hamar-katedralskole_png.png"} alt={"Hamar Katedralskole"} height={200} width={200} className="p-4"></Image></Link>
                 
                 <div className="hidden sm:flex">
                     <NavbarLink linkDestination="/" text="Om Skolehelsetjensten"></NavbarLink>
