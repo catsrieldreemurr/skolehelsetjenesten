@@ -25,7 +25,7 @@ export default function Home() {
 
       <div className="bg-kattaGray p-5">
         <Typography variant="h2" isBold isCentered includeSpacer>Våre Helsesykepleiere</Typography> {/* Will probably fully rework this, not happy with it */}
-        <div className="flex flex-col justify-center gap-5 m-15 items-center">
+        <div className="flex flex-col justify-center gap-5 m-5 items-center">
           <div className="flex flex-col items-center justify-center bg-kattaGreen text-white p-5 rounded-sm w-[20rem] sm:w-3/5">
             <Typography isBold variant="h3">Marianne Buvik</Typography>
             <Typography>902 69 665</Typography>

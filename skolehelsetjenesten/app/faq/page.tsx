@@ -4,6 +4,7 @@ import Navbar from "@/components/ui/navbar";
 import Question from "@/components/ui/question";
 import Typography from "@/components/ui/typography";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Page(){
     return(
@@ -17,28 +18,27 @@ export default function Page(){
 
             <div className="mt-10">
                 <Typography variant="h2" isCentered isBold>Spørsmål</Typography>
-                <Question questionText="Test Question" answerText="answerText"></Question>
-                <Question questionText="Test QUestion #2" answerText="answerText #2"></Question>
+                <Question questionText="Er hva jeg sier hemmelig?" answerText="Ja. Alle som jobber her har tausetsplikt."></Question>
+                <Question questionText="Hva kan vi hjelpe med?" answerText="Du kan snakke med oss om alt som har med din helse å gjøre. Dette inkluderer fysisk og psykisk helse, seksualitet og teste deg for kjønnssykdommer."></Question>
             </div>
 
             <div className="mt-15"><Typography variant="h2" isCentered isBold>Andre Ressurser</Typography></div>
 
             <div className="flex flex-col sm:flex-row p-5 gap-5 justify-center">
+
+                <Box isCentered height="[10rem]">
+                    <Link className="text-xl font-bold text-kattaGreen hover:underline" href={"https://www.helsenorge.no/hjelpetilbud-i-kommunene/skolehelsetjenesten/"}>Hva er Skolehelsetjensten?</Link>
+                    <Typography>- Helsenorge</Typography>
+                </Box>
                 
-                <Box>
-                    <Typography variant="h3" isBold isCentered>Hvor er vi?</Typography>
-                    <Typography isCentered>Vi ligger i 3. Etasje i fløy 1 ved Elevtjenesten.</Typography>
+                <Box isCentered height="[10rem]">
+                    <Link className="text-xl font-bold text-kattaGreen hover:underline" href={"https://sml.snl.no/skolehelsetjeneste"}>Skolehelsetjenesten</Link>
+                    <Typography>- Store Medisinske Leksikon</Typography>
                 </Box>
 
-                <Box>
-                    <Typography variant="h3" isBold isCentered>Bestill en Time</Typography>
-                    <Typography isCentered>Ønsker du å bestille time, sender du en SMS med navn og fødselsdato til en av Helsesykepleierene, eller trykk nedenfor.</Typography>
-                </Box>
-
-                <Box>
-                    <Typography variant="h3" isBold isCentered>Finn oss på Snapchat!</Typography>
-                    <div className="flex justify-center items-center mt-5">
-                    </div>
+                <Box isCentered height="[10rem]">
+                    <Link className="text-xl font-bold text-kattaGreen hover:underline text-center" href={"https://www.helsedirektoratet.no/forebygging-diagnose-og-behandling/organisering-og-tjenestetilbud/helsestasjons-og-skolehelsetjenesten"}>Helsestasjons- og skolehelsetjenesten</Link>
+                    <Typography>- Helsedirektoratet</Typography>
                 </Box>
             </div>
             <FooterBar></FooterBar>
