@@ -12,7 +12,9 @@ interface setTypes{
 
 export default function Typography({variant, isBold, isCentered, children, isUnderline, includeSpacer}:setTypes){
     if (variant === "h1"){
-        return <h1 className={`text-4xl 
+        return <h1 className={`
+            text-3xl
+            sm:text-4xl 
                 ${isBold && "font-bold"} 
                 ${isCentered && "text-center"} 
                 ${isUnderline && "underline"}
@@ -22,7 +24,9 @@ export default function Typography({variant, isBold, isCentered, children, isUnd
     }
 
     else if(variant === "h2"){
-        return <h2 className={`text-3xl 
+        return <h2 className={`
+            text-2xl
+            sm:text-2xl 
                 ${isBold && "font-bold"} 
                 ${isCentered && "text-center"} 
                 ${isUnderline && "underline"}
@@ -32,7 +36,9 @@ export default function Typography({variant, isBold, isCentered, children, isUnd
     }
 
     else if(variant === "h3"){
-        return <h2 className={`text-2xl 
+        return <h2 className={`
+            text-xl
+            sm:text-2xl 
                 ${isBold && "font-bold"} 
                 ${isCentered && "text-center"} 
                 ${isUnderline && "underline"}
@@ -42,7 +48,9 @@ export default function Typography({variant, isBold, isCentered, children, isUnd
     }
 
     else if(variant === "h4"){
-        return <h2 className={`text-xl 
+        return <h2 className={`
+            text-lg
+            sm:text-xl 
                 ${isBold && "font-bold"} 
                 ${isCentered && "text-center"} 
                 ${isUnderline && "underline"}
@@ -52,7 +60,9 @@ export default function Typography({variant, isBold, isCentered, children, isUnd
     }
 
     else {
-        return <p className={`text-lg 
+        return <p className={`
+            text-md
+            sm:text-lg 
                 ${isBold && "font-bold"} 
                 ${isCentered && "text-center"} 
                 ${isUnderline && "underline"}
