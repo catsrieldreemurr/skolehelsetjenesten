@@ -32,7 +32,7 @@ export default function Home() {
         </div>
 
         <div className="flex justify-center items-center mt-10">
-          <div className="bg-white w-4/5 sm:w-3/5 p-5 rounded-sm text-center">
+          <div className="bg-white w-[20rem] sm:w-3/5 p-5 rounded-sm text-center">
             <Typography variant="h3" isBold isCentered>Kontortider</Typography>
             <Typography>Mandag kl. 09–14</Typography>
             <Typography>Tirsdag kl. 09–14</Typography>
@@ -63,8 +63,8 @@ export default function Home() {
             <div className="flex justify-center items-center mt-5">
               <Image src={"/kattaSnap.png"} height={150} width={150} alt="Snapchat Image"></Image>
             </div>
-            
           </div>
+
         </div>  
       </div>
       <FooterBar></FooterBar>
