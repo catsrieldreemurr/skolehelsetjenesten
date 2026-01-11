@@ -12,9 +12,14 @@ export default function Home() {
 
       <div className="flex flex-col items-center justify-center h-180 backdrop-blur-none bg-[url(/cutKatta.png)] bg-cover border-b-3 border-kattaLightGreen"> {/* Hero */}
         <span className="bg-black/50 backdrop-blur-xs pt-10 pb-10 pl-2 pr-2 sm:p-10 rounded-md tex text-white">
-          <Typography variant="h1" isBold>Skolehelsetjenesten</Typography>
-          <Typography variant="h3">Hamar Katedralskole</Typography>
+          <Typography variant="h1" isBold isCentered>Skolehelsetjenesten</Typography>
+          <Typography variant="h3" isCentered>Hamar Katedralskole</Typography>
         </span>
+      </div>
+
+      <div className="bg-kattaGray p-5">
+        <Typography variant="h2" isBold isCentered includeSpacer>Du er trygg hos oss.</Typography>
+        <Typography isCentered includeSpacer>Du kan snakke med oss om alt som har med din helse å gjøre: psykisk helse, fysisk helse, seksualitet og teste deg for kjønnssykdommer.</Typography>
       </div>
 
       <div className="bg-kattaGray p-5">
