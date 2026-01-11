@@ -6,7 +6,7 @@ import NavbarLink from "./navbarLink";
 
 export default function FooterBar(){
     return(
-        <footer className="bg-kattaGreen p-5 mt-10">
+        <footer className="bg-kattaGreen p-5">
             <div className="flex flex-col sm:flex-row text-white gap-5 items-center">
                 <div className="sm:w-1/3 flex">
                     <Link href={"https://www.hamar-katedral.vgs.no/"}>

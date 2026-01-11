@@ -15,7 +15,7 @@ export default function Navbar(){
                 <div className="hidden sm:flex">
                     <NavbarLink linkDestination="/" text="Om Skolehelsetjensten"></NavbarLink>
                     <NavbarLink linkDestination="/faq" text="Ofte Stilte Spørsmål"></NavbarLink>
-                    <NavbarLink linkDestination="/" text="Bestill Time"></NavbarLink>
+                    <NavbarLink linkDestination="/time" text="Bestill Time"></NavbarLink>
                 </div>
 
                 <div className="flex sm:hidden">
@@ -28,7 +28,7 @@ export default function Navbar(){
                             <div className="flex flex-col p-5 bg-kattaGray rounded-lg border-2 border-black">
                                 <Link href={"/"} className={menuStyles}>➜ Om Skolehelsetjenesten</Link>
                                 <Link href={"/faq"} className={menuStyles}>➜ Ofte Stilte Spørsmål</Link>
-                                <Link href={"/"} className={menuStyles}>➜ Bestill Time</Link>
+                                <Link href={"/time"} className={menuStyles}>➜ Bestill Time</Link>
                             </div>
                         </PopoverContent>
                     </Popover>

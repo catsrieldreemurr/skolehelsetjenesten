@@ -11,7 +11,7 @@ export default function Page(){
         <div>
             <Navbar></Navbar>
 
-            <div className="flex flex-col items-center justify-center h-150 sm:h-180 bg-kattaGray p-5 border-b-3 border-kattaGreen">
+            <div className="flex flex-col items-center justify-center h-150 sm:h-180 bg-kattaGray p-5 border-b-3 border-kattaLightGreen">
                 <Typography variant="h1" isBold isCentered>Ofte Spurte Spørsmål</Typography>
                 <Typography variant="h4" isCentered>Er det noe du lurer på? Det kan hende at det allerede har blitt spurt! </Typography>                
             </div>
@@ -24,7 +24,7 @@ export default function Page(){
 
             <div className="mt-15"><Typography variant="h2" isCentered isBold>Andre Ressurser</Typography></div>
 
-            <div className="flex flex-col sm:flex-row p-5 gap-5 justify-center">
+            <div className="flex flex-col sm:flex-row p-5 gap-5 justify-center mb-10">
 
                 <Box isCentered height="[10rem]">
                     <Link className="text-xl font-bold text-kattaGreen hover:underline" href={"https://www.helsenorge.no/hjelpetilbud-i-kommunene/skolehelsetjenesten/"}>Hva er Skolehelsetjensten?</Link>
