@@ -25,7 +25,7 @@ export default function Navbar(){
                         </PopoverTrigger>
 
                         <PopoverContent>
-                            <div className="flex flex-col p-5 bg-kattaGray rounded-lg">
+                            <div className="flex flex-col p-5 bg-kattaGray rounded-lg border-2 border-black">
                                 <Link href={"/"} className={menuStyles}>➜ Om Skolehelsetjenesten</Link>
                                 <Link href={"/faq"} className={menuStyles}>➜ Ofte Stilte Spørsmål</Link>
                                 <Link href={"/"} className={menuStyles}>➜ Bestill Time</Link>

@@ -18,7 +18,7 @@ export default function Typography({variant, isBold, isCentered, children, isUnd
                 ${isBold && "font-bold"} 
                 ${isCentered && "text-center"} 
                 ${isUnderline && "underline"}
-                ${includeSpacer && "m-5"}
+                ${includeSpacer && "m-2 sm:m-5"}
                 `}
             >{children}</h1>
     }
@@ -26,11 +26,11 @@ export default function Typography({variant, isBold, isCentered, children, isUnd
     else if(variant === "h2"){
         return <h2 className={`
             text-2xl
-            sm:text-2xl 
+            sm:text-3xl 
                 ${isBold && "font-bold"} 
                 ${isCentered && "text-center"} 
                 ${isUnderline && "underline"}
-                ${includeSpacer && "m-5"}
+                ${includeSpacer && "m-2 sm:m-5"}
                 `}
             >{children}</h2>
     }
@@ -42,7 +42,7 @@ export default function Typography({variant, isBold, isCentered, children, isUnd
                 ${isBold && "font-bold"} 
                 ${isCentered && "text-center"} 
                 ${isUnderline && "underline"}
-                ${includeSpacer && "m-5"}
+                ${includeSpacer && "m-2 sm:m-5"}
                 `}
             >{children}</h2>
     }
@@ -54,7 +54,7 @@ export default function Typography({variant, isBold, isCentered, children, isUnd
                 ${isBold && "font-bold"} 
                 ${isCentered && "text-center"} 
                 ${isUnderline && "underline"}
-                ${includeSpacer && "m-5"}
+                ${includeSpacer && "m-2 sm:m-5"}
                 `}
             >{children}</h2>
     }
@@ -66,7 +66,7 @@ export default function Typography({variant, isBold, isCentered, children, isUnd
                 ${isBold && "font-bold"} 
                 ${isCentered && "text-center"} 
                 ${isUnderline && "underline"}
-                ${includeSpacer && "m-5"}
+                ${includeSpacer && "m-2 sm:m-5"}
                 `}
             >{children}</p>
     }

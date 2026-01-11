@@ -1,3 +1,4 @@
+import Box from "@/components/ui/box";
 import { Button } from "@/components/ui/button";
 import FooterBar from "@/components/ui/footer";
 import Navbar from "@/components/ui/navbar";
@@ -48,27 +49,26 @@ export default function Home() {
         </div>
         
         <div className="flex flex-col sm:flex-row p-5 gap-5 justify-center mt-15">
-          <div className="bg-kattaGray2 sm:w-1/5 sm:h-[20rem] p-5">
+          <Box>
             <Typography variant="h3" isBold isCentered>Hvor er vi?</Typography>
             <Typography isCentered>Vi ligger i 3. Etasje i fløy 1 ved Elevtjenesten.</Typography>
-          </div>
+          </Box>
 
-          <div className="bg-kattaGray2 sm:w-1/5 sm:h-[20rem] p-5">
+          <Box>
             <Typography variant="h3" isBold isCentered>Bestill en Time</Typography>
             <Typography isCentered>Ønsker du å bestille time, sender du en SMS med navn og fødselsdato til en av Helsesykepleierene, eller trykk nedenfor.</Typography>
 
             <div className="flex items-center justify-center">
               <Link href={"/"} className="bg-kattaLightGreen text-white p-3 rounded-xl mt-5 w-1/2 text-center">Bestill Her</Link>
             </div>
-            
-          </div>
+          </Box>
 
-          <div className="bg-kattaGray2 sm:w-1/5 sm:h-[20rem] p-5">
+          <Box>
             <Typography variant="h3" isBold isCentered>Finn oss på Snapchat!</Typography>
             <div className="flex justify-center items-center mt-5">
               <Image src={"/kattaSnap.png"} height={150} width={150} alt="Snapchat Image"></Image>
             </div>
-          </div>
+          </Box>
 
         </div>  
       </div>
